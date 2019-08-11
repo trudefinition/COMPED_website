@@ -41,6 +41,12 @@ span {
     font-size: 10vh;
 }
 
+#body-content{
+    z-index: 0;
+    display: block;
+    width: 80vw;
+    background-color: white;
+}
 
 body {
     overflow-x: hidden;
@@ -75,6 +81,13 @@ body {
     padding: 5vh;
 }
 
+.center-align{
+    align-content: center;
+    padding-top: 15vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
 #content-text{
     margin-top: 20vh;
 }
@@ -82,6 +95,10 @@ body {
 #content-text p{
     margin: 5vh;
     text-align: justify;
+}
+
+#pages td{
+    padding-left: 10px;
 }
 
 #content-text table{
@@ -105,6 +122,15 @@ text-align: center;
 #welcome-text li {
     font-size: 5vh;
 }
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+  }
 
 q {
     margin-top: 1vh;
@@ -146,11 +172,11 @@ b {
 }
 
 .footer {
-    height: 10vh;
     background-color: rgba(0, 0, 0, 0.95);
     text-align: center;
     color: darkgray;
     padding: 5vh;
+    padding-top: 30vh;
     font-size: 2vh;
 }
 
